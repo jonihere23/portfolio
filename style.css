@@ -1,0 +1,301 @@
+.nav-link {
+
+
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./images/autumn-leaves-composition.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #13364D;
+}
+
+
+
+.heading {
+
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    
+
+
+}
+
+.para-g {
+    margin-top: 40px;
+    
+}
+
+
+.img-1 {
+
+    height: 100px;
+    width: 150px;
+}
+
+.buton-1 {
+
+    padding: 10px;
+    background-color: #13364D;
+    border: 2px solid;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.buton-1:hover{
+
+
+transition: all 0.5s;
+transform: scale(1.1);
+
+}
+
+.image-container {
+
+    height: 400px;
+    width: 400px;
+    margin-top: 250px;
+    border-radius: 50px;
+    transition: all 0.8s ease;
+
+}
+.image-container:hover {
+
+    transform: scale(1.1);
+}
+
+
+
+
+
+.HEADER-0 {
+   padding-top: 250px;
+
+
+}
+
+.portfolio-heading {
+
+
+    text-align: center;
+    margin-top: 150px;
+}
+
+.foter-s {
+
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    gap: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+
+}
+
+.para-foot {
+
+    margin-top: 175px;
+    font-weight: bold;
+}
+
+.img-portfolio {
+
+    height: 400px;
+    width: 400px;
+    margin-top: 150px;
+    border-radius: 50px;
+    margin-left: 100px;
+    transition: all 0.8s ease;
+}
+
+.img-portfolio:hover {
+
+    transform: scale(1.1);
+}
+
+
+
+.img-portfolio-2 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 185px;
+    transition: all 0.8s ease;
+}
+
+.img-portfolio-2:hover {
+
+    transform: scale(1.1);
+}
+
+.img-portfolio-2{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 185px;
+    transition: all 0.8s ease;
+}
+
+.img-portfolio-2:hover {
+
+    transform: scale(1.1s);
+}
+
+.button-div {
+
+    margin-top: 120px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
+
+
+}
+
+.servic-head {
+
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+
+}
+
+.card-c {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.card-1 {
+    margin-top: 100px;
+    background-color: #13364D;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: inset 10px 10px bisque;
+    margin-left: 160px;
+    transition: all 0.8s ease;
+}
+
+.card-1:hover {
+
+    transform: scale(1.1);
+}
+
+
+
+.card-2 {
+    margin-top: 100px;
+    background-color: #13364D;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: inset 10px 10px bisque;
+    margin-left: 50px;
+    transition: all 0.8s ease;
+
+}
+
+
+.card-2:hover {
+
+    transform: scale(1.1);
+}
+
+.card-3 {
+    margin-top: 100px;
+    background-color: #13364D;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: inset 10px 10px bisque;
+    margin-left: 155px;
+    transition: all 0.8s ease;
+}
+
+
+.card-3:hover {
+
+    transform: scale(1.1);
+}
+
+.Exp-00 {
+
+    text-align: center;
+    margin-right: 50px;
+    padding: 60px;
+    font-weight: bold;
+}
+/* Contain/* Container styling */
+.container {
+    margin-top: 30px;
+  }
+  
+  /* Field title styling */
+  .field-title {
+    color: #469dd6; /* Title color */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Form control styling */
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #469dd6;
+  }
+  
+  /* Button styling */
+  .btn {
+    border-radius: 10px;
+    background-color: #0b3755;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #0b3755;
+  }
+  
+  .btn:hover {
+    background-color: #469dd6;
+    border-color: #469dd6;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Textarea styling */
+  textarea.form-control {
+    border-radius: 10px;
+    border: 1px solid #469dd6;
+    height: 150px;
+  }
+  
+  /* Optional: Margins for rows and columns */
+  .row > .col-md-12 {
+    margin-bottom: 20px;
+  }
+
+  .footer-icons{
+
+    display: flex;
+    justify-content: flex-end
+    
+
+  }
+
+  .card-body{
+
+    background-color:#13364D;
+  }
+  
