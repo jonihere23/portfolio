@@ -1,19 +1,35 @@
+html {
+    /* scroll-behavior: smooth; */
+  }
+  
 .nav-link {
-
-
+     
+       
     margin-left: 50px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body {
-    background-image: url(./images/autumn-leaves-composition.jpg);
+/* .sectionBg {
+    background-color: black;
+} */
+
+#herosection {
+   background-image: url(./images/dots-background-2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
     height: 100vh;
-    background-color: #13364D;
+
+
+}
+
+body{
+    overflow-x:hidden ;
+    background-image: url(./images/dots-background-2.png);
+
 }
 
 
@@ -24,14 +40,51 @@ body {
     font-size: 50px;
     font-weight: bold;
     font-style: oblique;
-    
+
 
 
 }
 
+.whatsapp-button{
+    font-size: xx-large;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 35px;
+    bottom: 190px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(83, 83, 83); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    width: 50px;
+    height: 50px;
+    border-radius: 100%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #000000ee; /* Add a dark-grey background on hover */
+  }
+
+
 .para-g {
     margin-top: 40px;
-    
+
 }
 
 
@@ -44,7 +97,7 @@ body {
 .buton-1 {
 
     padding: 10px;
-    background-color: #13364D;
+    background-color: black;
     border: 2px solid;
     border-radius: 50px;
     margin-top: 10px;
@@ -52,11 +105,11 @@ body {
 
 }
 
-.buton-1:hover{
+.buton-1:hover {
 
 
-transition: all 0.5s;
-transform: scale(1.1);
+    transition: all 0.5s;
+    transform: scale(1.1);
 
 }
 
@@ -69,6 +122,7 @@ transform: scale(1.1);
     transition: all 0.8s ease;
 
 }
+
 .image-container:hover {
 
     transform: scale(1.1);
@@ -79,7 +133,7 @@ transform: scale(1.1);
 
 
 .HEADER-0 {
-   padding-top: 250px;
+    padding-top: 250px;
 
 
 }
@@ -139,7 +193,7 @@ transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.img-portfolio-2{
+.img-portfolio-2 {
     height: 400px;
     width: 400px;
     border-radius: 50px;
@@ -182,7 +236,7 @@ transform: scale(1.1);
 
 .card-1 {
     margin-top: 100px;
-    background-color: #13364D;
+    background-color: black;
     color: white;
     border: 1px solid white;
     padding: 20px;
@@ -200,7 +254,7 @@ transform: scale(1.1);
 
 .card-2 {
     margin-top: 100px;
-    background-color: #13364D;
+    background-color:black;
     color: white;
     border: 1px solid white;
     padding: 20px;
@@ -218,7 +272,7 @@ transform: scale(1.1);
 
 .card-3 {
     margin-top: 100px;
-    background-color: #13364D;
+    background-color: black;
     color: white;
     border: 1px solid white;
     padding: 20px;
@@ -240,62 +294,69 @@ transform: scale(1.1);
     padding: 60px;
     font-weight: bold;
 }
+
 /* Contain/* Container styling */
 .container {
     margin-top: 30px;
-  }
-  
-  /* Field title styling */
-  .field-title {
-    color: #469dd6; /* Title color */
+}
+
+/* Field title styling */
+.field-title {
+    color: white;
+    /* Title color */
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
-  /* Form control styling */
-  .form-control {
+}
+
+/* Form control styling */
+.form-control {
     border-radius: 10px;
-    border: 1px solid #469dd6;
-  }
-  
-  /* Button styling */
-  .btn {
+    border: 1px solid white;
+}
+
+/* Button styling */
+.btn {
     border-radius: 10px;
-    background-color: #0b3755;
+    background-color: black;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
-    border: 1px solid #0b3755;
-  }
-  
-  .btn:hover {
-    background-color: #469dd6;
-    border-color: #469dd6;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-  }
-  
-  /* Textarea styling */
-  textarea.form-control {
-    border-radius: 10px;
-    border: 1px solid #469dd6;
-    height: 150px;
-  }
-  
-  /* Optional: Margins for rows and columns */
-  .row > .col-md-12 {
-    margin-bottom: 20px;
-  }
+    border: 1px solid white;
+}
 
-  .footer-icons{
+.btn:hover {
+    background-color: black;
+    border-color:white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Textarea styling */
+textarea.form-control {
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 150px;
+}
+
+/* Optional: Margins for rows and columns */
+.row>.col-md-12 {
+    margin-bottom: 20px;
+}
+
+.footer-icons {
 
     display: flex;
     justify-content: flex-end
+}
+
+.card-body {
+
+    background-color: black;
+}
+
+.hero-photo{
+
+    height: 450px;
+    width: 350px;
+    border-radius: 50px;
     
-
-  }
-
-  .card-body{
-
-    background-color:#13364D;
-  }
-  
+}
