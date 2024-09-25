@@ -8,6 +8,12 @@ html {
     margin-left: 50px;
 }
 
+.nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+    background-color: #e9ecef; /* Light background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
 a {
     text-decoration: none;
 }
@@ -171,6 +177,7 @@ body{
     border-radius: 50px;
     margin-left: 100px;
     transition: all 0.8s ease;
+    object-fit: contain;
 }
 
 .img-portfolio:hover {
@@ -186,6 +193,7 @@ body{
     border-radius: 50px;
     margin-top: 185px;
     transition: all 0.8s ease;
+    object-fit: contain;
 }
 
 .img-portfolio-2:hover {
@@ -360,3 +368,4 @@ textarea.form-control {
     border-radius: 50px;
     
 }
+
